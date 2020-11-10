@@ -11,10 +11,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class RegistryHandler {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Simplefoodstuffs.MOD_ID);
-    //public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Simplefoodstuffs.MOD_ID);
 
     public static void init() {
-        //BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
@@ -27,13 +25,5 @@ public class RegistryHandler {
     public static final RegistryObject<Item> CHORUS_FRUIT_SMOOTHIE_ITEM = ITEMS.register("chorus_fruit_smoothie", ChorusFruitSmoothie::new);
     public static final RegistryObject<Item> STEAK_SANDWICH_ITEM = ITEMS.register("steak_sandwich", SteakSandwich::new);
     public static final RegistryObject<Item> STEAK_AND_EGG_SANDWICH_ITEM = ITEMS.register("steak_and_egg_sandwich", SteakEggSandwich::new);
-
-    // Blocks
-    //public static final RegistryObject<Block> RUBY_ORE_BLOCK = BLOCKS.register("ruby_ore_block", RubyOreBlock::new);
-    //public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
-
-    // Block Items
-    //public static final RegistryObject<Item> RUBY_ORE_ITEM = ITEMS.register("ruby_ore_item", () -> new BlockItemBase(RUBY_ORE_BLOCK.get()));
-    //public static final RegistryObject<Item> RUBY_BLOCK_ITEM = ITEMS.register("ruby_block_item",  () -> new BlockItemBase(RUBY_BLOCK.get()));
 
 }
