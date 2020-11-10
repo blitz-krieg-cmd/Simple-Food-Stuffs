@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minecraft:cooked_beef"
+    },
+    {
+      "item": "simplefoodstuffs:fried_egg"
+    }
+  ],
+  "result":
+  {
+    "item": "simplefoodstuffs:steak_and_egg_sandwich",
+    "count": 1
+  }
+}

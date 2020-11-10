@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "simplefoodstuffs:items/steak_and_egg_sandwich"
+  }
+}
