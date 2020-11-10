@@ -1,4 +1,4 @@
-package me.blitzkriegcmd.simplefoodstuffs.items;
+package me.kriegcmd.simplefoodstuffs.items;
 
 import net.minecraft.item.*;
 

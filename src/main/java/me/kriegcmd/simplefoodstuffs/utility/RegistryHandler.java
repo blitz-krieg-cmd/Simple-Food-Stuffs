@@ -1,7 +1,7 @@
-package me.blitzkriegcmd.simplefoodstuffs.utility;
+package me.kriegcmd.simplefoodstuffs.utility;
 
-import me.blitzkriegcmd.simplefoodstuffs.Simplefoodstuffs;
-import me.blitzkriegcmd.simplefoodstuffs.items.*;
+import me.kriegcmd.simplefoodstuffs.Simplefoodstuffs;
+import me.kriegcmd.simplefoodstuffs.items.*;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
